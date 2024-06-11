@@ -101,20 +101,24 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Column(
-                  children: [Text("Prep:"), Text("20-30mins")],
+                  children: [
+                    Icon(Icons.restaurant),
+                    Text("Prep:"),
+                    Text("20-30mins")
+                  ],
                 ),
                 Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Row(children: [
                     Column(
-                      children: [Text('star'), Text("  60-70mins")],
+                      children: [Text('star'), Text("60-70mins")],
                     ),
                   ]),
                 ),
                 Row(
                   children: [
                     Column(
-                      children: [Text('data'), Text("  40-50mins")],
+                      children: [Text('data'), Text("40-50mins")],
                     ),
                   ],
                 ),
